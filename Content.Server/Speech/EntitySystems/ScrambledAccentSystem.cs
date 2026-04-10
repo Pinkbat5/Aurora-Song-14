@@ -21,13 +21,12 @@ namespace Content.Server.Speech.EntitySystems
         {
             var words = message.ToLower().Split();
 
-// Commented out for Aurora Song port.
-//            if (words.Length < 2)
-//            {
-//                var pick = _random.Next(1, 8);
-//                // If they try to weasel out of it by saying one word at a time we give them this.
-//                return Loc.GetString($"accent-scrambled-words-{pick}");
-//            }
+            if (words.Length < 2)
+            {
+                var pick = _random.Next(1, 8);
+                // If they try to weasel out of it by saying one word at a time we give them this.
+                return Loc.GetString($"accent-scrambled-words-{pick}");
+            }
 
             // Scramble the words
             var scrambled = words.OrderBy(x => _random.Next()).ToArray();
