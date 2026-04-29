@@ -675,6 +675,7 @@
     - NFBioGenSeedsMedicalStatic # Frontier
     - NFBioGenSoil # Frontier
     - NFBioGenAnimalCubesStatic #Frontier
+    - ASBioGenAnimalCubesStatic # Aurora's Song
   - type: EmagLatheRecipes
     emagStaticPacks:
     - BioGenEmagStatic

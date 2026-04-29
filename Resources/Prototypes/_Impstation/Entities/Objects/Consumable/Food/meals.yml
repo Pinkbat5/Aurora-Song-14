@@ -36,8 +36,9 @@
         #   Quantity: 10
   - type: Tag
     tags:
-    - ClothFood
+    # - ClothFood - Aurora's Song
     - ClothMade
+  - type: MothFood # - Aurora's Song
 
 - type: entity
   name: puff-puff
@@ -74,8 +75,9 @@
           Quantity: 5
   - type: Tag
     tags:
-    - ClothFood
+    # - ClothFood - Aurora's Song
     - ClothMade
+  - type: MothFood # - Aurora's Song
 
 - type: entity
   name: pomgo
@@ -111,8 +113,9 @@
           Quantity: 5
   - type: Tag
     tags:
-    - ClothFood
+    # - ClothFood - Aurora's Song
     - ClothMade
+  - type: MothFood # - Aurora's Song
 
 - type: entity
   name: pompette
@@ -150,8 +153,9 @@
           Quantity: 10
   - type: Tag
     tags:
-    - ClothFood
+    # - ClothFood - Aurora's Song
     - ClothMade
+  - type: MothFood # - Aurora's Song
 
 - type: entity
   categories: [ HideSpawnMenu ]

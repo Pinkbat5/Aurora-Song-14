@@ -62,7 +62,7 @@
   - type: Tag
     tags:
     - Trash
-    - MultitoolDefibrillatorTarget 
+    # - MultitoolDefibrillatorTarget - Aurora's Song
   - type: Bloodstream
     bloodReagent: InsectBlood
     bloodMaxVolume: 0.1
@@ -78,5 +78,5 @@
       - !type:GibBehavior
         recursive: false
   - type: ZombieImmune
-  - type: PleebnarGibbable
+  # - type: PleebnarGibbable - Aurora's Song (component not in codebase)
   - type: AlwaysRevolutionaryConvertible

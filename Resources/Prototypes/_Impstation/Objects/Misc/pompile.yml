@@ -47,9 +47,9 @@
       - ConstructionMaterial
   - type: Item
     heldPrefix: pompom
-  - type: PluralName 
-    oneOf: plural-name-hand-1
-    
+  # - type: PluralName - Aurora's Song
+  #   oneOf: plural-name-hand-1
+
 - type: entity
   parent: MaterialPom
   id: MaterialPom10
