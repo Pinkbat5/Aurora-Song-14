@@ -4850,3 +4850,10 @@ Entries:
   id: 9444
   time: '2026-05-04T11:30:07.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/996
+- author: CombustibleToast
+  changes:
+    - type: Add
+      message: Atmos flightsuits!
+  id: 9445
+  time: '2026-05-04T11:31:37.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1018
