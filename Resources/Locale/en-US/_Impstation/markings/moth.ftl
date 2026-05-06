@@ -258,7 +258,7 @@ marking-WingsDragonfly-dragonfly1 = Neck
 marking-WingsDragonfly-dragonfly2 = Wings
 marking-WingsDragonfly-dragonfly3 = Tail
 
-marking-WingsLanterfly = Wings (Lanternfly)
-marking-WingsLanterfly-lanternfly = Wings
+marking-WingsLanternfly = Wings (Lanternfly)
+marking-WingsLanternfly-lanternfly = Wings
 
 # RArmExtension
