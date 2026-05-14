@@ -4,7 +4,7 @@
   name: feroxi appearance
   components:
   - type: Inventory
-    templateId:
+    speciesId: feroxi
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
