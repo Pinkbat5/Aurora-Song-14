@@ -2,7 +2,7 @@
   id: HumanHairGatheredlow
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: gatheredlow
@@ -11,7 +11,7 @@
   id: HumanHairLowpigtails
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: lowpigtails
@@ -20,7 +20,7 @@
   id: HumanHairFrenchBraid
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: frenchbraid
@@ -29,7 +29,7 @@
   id: HumanHairMessyPonytail
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
     - sprite: _Impstation/Mobs/Customization/human_hair.rsi
       state: messyponytail
@@ -38,7 +38,7 @@
   id: HumanHairShaggy
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: shaggy
@@ -47,7 +47,7 @@
   id: HumanHairShaggyLonger
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: shaggylonger
@@ -56,7 +56,7 @@
   id: HumanHairShaggyMessy
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: shaggymessy
@@ -65,7 +65,7 @@
   id: HumanHairSusie
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: susie
@@ -74,7 +74,7 @@
   id: HumanHairSusieNoBangs
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: susienobangs
@@ -83,7 +83,7 @@
   id: HumanHairEyeBangLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: eyebanglong
@@ -92,7 +92,7 @@
   id: HumanHairEyeBangShort
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: eyebangshort
@@ -101,7 +101,7 @@
   id: HumanHairEyeBangSideTail
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: eyebangsidetail
@@ -110,7 +110,7 @@
   id: HumanHairOverEyes
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: overeyes
@@ -119,7 +119,7 @@
   id: HumanHairOverEyesTail
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: overeyestail
@@ -128,7 +128,7 @@
   id: HumanHairOverEyesLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: overeyeslong
@@ -137,7 +137,7 @@
   id: HumanHairFringeTail
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: fringetail
@@ -146,7 +146,7 @@
   id: HumanHairFringeRat
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: fringerat
@@ -155,7 +155,7 @@
   id: HumanHairFringeBraid
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: fringebraid
@@ -164,7 +164,7 @@
   id: HumanHairAsymBun
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: asymbun
@@ -173,7 +173,7 @@
   id: HumanHairIntakeShort
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: intakeshort
@@ -182,7 +182,7 @@
   id: HumanHairIntakeLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: intakelong
@@ -191,7 +191,7 @@
   id: HumanHairLiberatorTied
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: liberatortied
@@ -200,7 +200,7 @@
   id: HumanHairLiberatorShort
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: liberatorshort
@@ -209,7 +209,7 @@
   id: HumanHairLiberatorLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: liberatorlong
@@ -218,7 +218,7 @@
   id: HumanHairDrillTail
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: drilltail
@@ -227,7 +227,7 @@
   id: HumanHairBraidMed
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: braidmed
@@ -236,7 +236,7 @@
   id: HumanHairLocsTied
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: locstied
@@ -245,7 +245,7 @@
   id: HumanHairCurlyPerm
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: curlyperm
@@ -254,7 +254,7 @@
   id: HumanHairPosterPerson
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: posterperson
@@ -263,7 +263,7 @@
   id: HumanHairSmiler
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: smiler
@@ -272,7 +272,7 @@
   id: HumanHairWavyLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: wavylong
@@ -281,7 +281,7 @@
   id: HumanHairMiddlePartShort
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: middlepartshort
@@ -290,7 +290,7 @@
   id: HumanHairFadeHighlight
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: fadehighlight
@@ -299,7 +299,7 @@
   id: HumanHairChonmage
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: chonmage
@@ -308,7 +308,7 @@
   id: HumanHairBaldingLong
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: baldinglong
@@ -317,7 +317,7 @@
   id: HumanHairBaldingCurls
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: baldingcurls
@@ -326,7 +326,7 @@
   id: HumanHairFriar
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: friar
@@ -335,7 +335,7 @@
   id: HumanHairAdoringFan
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: adoringfan
@@ -344,7 +344,7 @@
   id: HumanHairBabyHair
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Frontier: add Oni, Goblin, Felinid, Vulpkanin
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin] # Aurora's Song - add Oni, Goblin, Felinid, Vulpkanin
   sprites:
   - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: babyhair
