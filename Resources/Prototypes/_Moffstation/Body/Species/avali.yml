@@ -70,7 +70,7 @@
         - id: OrganAvaliStomach
         - id: OrganAvaliLiver
         - id: OrganAvaliKidneys
-  - type: HumanoidAppearance
+  - type: HumanoidProfile
     species: Avali
 
 - type: entity
