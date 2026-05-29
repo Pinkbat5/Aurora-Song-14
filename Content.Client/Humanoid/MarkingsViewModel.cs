@@ -160,7 +160,7 @@ public sealed class MarkingsViewModel
         if (!groupProto.Appearances.TryGetValue(layer, out var appearance))
             return true;
 
-        return !appearance.MatchSkin;
+        return appearance is { MatchSkin: false, ForcedColoring: null }; // Aurora's Song - Redesign ForcedColoring
     }
 
     public Marking? TryGetMarking(ProtoId<OrganCategoryPrototype> organ,

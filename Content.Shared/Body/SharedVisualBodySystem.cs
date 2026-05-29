@@ -40,7 +40,9 @@ public abstract partial class SharedVisualBodySystem : EntitySystem
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
 
-            if (!proto.ForcedColoring && appearances.GetValueOrDefault(proto.BodyPart)?.MatchSkin != true)
+            var appearance = appearances.GetValueOrDefault(proto.BodyPart); // Aurora's Song
+
+            if(!proto.ForcedColoring && appearance?.MatchSkin != true && appearance?.ForcedColoring == null) // Aurora's Song
                 ret.Add(marking);
             else
                 forcedColors.Add((marking, proto));
@@ -58,10 +60,22 @@ public abstract partial class SharedVisualBodySystem : EntitySystem
             {
                 Forced = marking.Forced,
             };
-            if (appearances.GetValueOrDefault(prototype.BodyPart) is { MatchSkin: true } appearance && skinColor is { } color)
+            // Aurora's Song Start - Redesign forced marking colors
+            // if (appearances.GetValueOrDefault(prototype.BodyPart) is { MatchSkin: true } appearance && skinColor is { } color)
+            // {
+            //     markingWithColor.SetColor(color.WithAlpha(appearance.LayerAlpha));
+            // }
+            var appearance = appearances.GetValueOrDefault(prototype.BodyPart);
+            switch (appearance) // Use a switch
             {
-                markingWithColor.SetColor(color.WithAlpha(appearance.LayerAlpha));
+                case { MatchSkin: true } when skinColor is { } color:
+                    markingWithColor.SetColor(color.WithAlpha(appearance.LayerAlpha));
+                    break;
+                case { ForcedColoring: not null }:
+                    markingWithColor.SetColor(appearance.ForcedColoring.Value.WithAlpha(appearance.LayerAlpha));
+                    break;
             }
+            // Aurora's Song End
             ret.Add(markingWithColor);
         }
 
