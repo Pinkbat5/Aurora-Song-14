@@ -5215,3 +5215,10 @@ Entries:
   id: 9491
   time: '2026-05-23T21:37:02.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1066
+- author: salamanderskies
+  changes:
+    - type: Add
+      message: Warm and dim lights are now printable in most lathes.
+  id: 9492
+  time: '2026-05-18T22:31:43.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1064
