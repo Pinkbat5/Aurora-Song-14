@@ -5144,3 +5144,12 @@ Entries:
   id: 9482
   time: '2026-05-25T08:39:48.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1027
+- author: entings
+  changes:
+    - type: Fix
+      message: >-
+        Organs can now be disposed of, by mouth or by your favorite grinding
+        apparatus.
+  id: 9483
+  time: '2026-05-25T06:53:00.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1076
