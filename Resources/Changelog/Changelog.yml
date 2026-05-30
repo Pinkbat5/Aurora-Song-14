@@ -5091,3 +5091,10 @@ Entries:
   id: 9475
   time: '2026-05-27T02:54:10.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1090
+- author: Oberonics
+  changes:
+    - type: Fix
+      message: Added Bubbles! and Pops! back to the slime emote wheel.
+  id: 9476
+  time: '2026-05-26T06:48:17.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1085
