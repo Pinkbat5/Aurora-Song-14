@@ -5135,3 +5135,12 @@ Entries:
   id: 9481
   time: '2026-05-25T08:40:02.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1083
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        The "Bounty Contracts" PDA app has a new "Offers" tab and four new
+        bounty types - Donation, Promotion, Target, and Trade.
+  id: 9482
+  time: '2026-05-25T08:39:48.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1027
