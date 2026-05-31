@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ FoodBreadBaguette, BaseSword, BaseSyndicateContraband ]
+  parent: [ FoodBreadBaguette, BaseSword, BaseC3SyndicateContraband ] # Aurora's Song - BaseSyndicateContraband>BaseC3SyndicateContraband
   id: WeaponBaguette
   suffix: Weapon
   components:
