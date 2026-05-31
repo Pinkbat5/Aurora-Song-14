@@ -53,9 +53,6 @@
       amount: 1
 
 - type: entity
-<<<<<<< HEAD
-  parent: ClothingOuterCoatBomberLightweight
-=======
   parent: ClothingOuterCoatBomberBlack
   id: ClothingOuterCoatBomberWhite
   name: white bomber jacket
@@ -73,7 +70,6 @@
 
 - type: entity
   parent: ClothingOuterCoatBomberBlack
->>>>>>> 34c49da8c5 (bomber jacket slutmode (#2033))
   id: ClothingOuterCoatBomberCargo
   name: cargo bomber jacket
   description: A brown bomber jacket, worn with the sleeves pushed up. It has plenty of pockets, and a Cargonian C on the back. If you're feeling bold, you can loosen how it fits with a knife.
