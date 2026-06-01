@@ -245,7 +245,7 @@ public sealed class MetabolizerSystem : EntitySystem
                         _entityEffects.ApplyEffect(solutionEntity.Value, effect, scale);
                         break;
                     default:
-                        _entityEffects.ApplyEffect(actualEntity, effect, scale);
+                        _entityEffects.ApplyEffect(actualEntity, effect, scale * ent.Comp1.EfficiencyModifier); // Aurora's Song - Make chem reactions stronger
                         break;
                 }
             }

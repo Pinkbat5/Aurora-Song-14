@@ -197,6 +197,8 @@
   components:
   - type: Metabolizer
     metabolizerTypes: [ Human, Fairy ]
+    updateInterval: 1.5
+    efficacyMultiplier: 1.5
 
 - type: entity
   parent: OrganFairy
@@ -263,30 +265,10 @@
 - type: entity
   parent: [ OrganBaseLungs, OrganFairyInternal, OrganFairyMetabolizer ]
   id: OrganFairyLungs
-  components:
-  - type: Metabolizer
-    groups:
-    - id: Gas
-      rateModifier: 50.0
 
 - type: entity
   parent: [ OrganBaseHeart, OrganFairyInternal, OrganFairyMetabolizer ]
   id: OrganFairyHeart
-  components:
-  - type: Metabolizer
-    updateInterval: 1.5
-    groups:
-    - id: Medicine
-      rateModifier: 0.2
-      scaleModifier: 5
-    - id: Cryogenic
-      rateModifier: 0.2
-      scaleModifier: 5
-    - id: Poison
-      rateModifier: 0.2
-      scaleModifier: 5 # Stop infinite fairy chems fr, also make them weak to poisons
-    - id: Narcotic
-      scaleModifier: 5 # because low rate mods stop narcotics from accumulating correctly presently, scale only. Also makes things like tear gas and noct hit them harder
 
 - type: entity
   parent: [ OrganBaseStomach, OrganFairyInternal, OrganFairyMetabolizer ]
@@ -296,36 +278,16 @@
     solutions:
       stomach:
         maxVol: 30
-# Aurora's Song - edible, grindable organs
       food:
         maxVol: 5
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
-# Aurora's Song edit ends
-  - type: Metabolizer
-    updateInterval: 1.5
-    groups:
-    - id: Food
-      rateModifier: 0.1
-      scaleModifier: 4
-    - id: Drink
-      rateModifier: 0.1
-      scaleModifier: 4
 
 - type: entity
   parent: [ OrganBaseLiver, OrganFairy, OrganHumanInternal, OrganFairyMetabolizer ]
   id: OrganFairyLiver
-  components:
-  - type: Metabolizer
-    updateInterval: 1.5
-    groups:
-    - id: Alcohol
-      rateModifier: 0.5 # removes alcohol very slowly along with the stomach removing it as a drink
 
 - type: entity
   parent: [ OrganBaseKidneys, OrganFairy, OrganHumanInternal, OrganFairyMetabolizer ]
   id: OrganFairyKidneys
-  components:
-  - type: Metabolizer
-    updateInterval: 1.5
