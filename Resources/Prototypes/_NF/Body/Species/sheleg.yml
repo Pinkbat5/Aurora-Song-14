@@ -341,40 +341,19 @@
   parent: [ OrganBaseHeart, OrganShelegInternal, OrganShelegMetabolizer ]
   id: OrganShelegHeart
   components:
-  - type: Metabolizer
-    groups:
-    - id: Sheleg
-      rateModifier: 0.20
-      scaleModifier: 5 # Aurora: Fix sheleg chems
-    - id: Cryogenic
-      rateModifier: 0.20
-      scaleModifier: 5 # Aurora: Fix sheleg chems
-    - id: Poison
-      rateModifier: 0.20
-      scaleModifier: 5 # Aurora: Fix sheleg chems
-    - id: Narcotic
-      rateModifier: 0.20
-      scaleModifier: 5 # Aurora: Fix sheleg chems
+  - type: MetabolizerTagWhitelist # Aurora's Song - Replace Sheleg metabolizer with a tag whitelist for chems
+    tags:
+    - Cryogenic
+    - Sheleg
+    stages: [ "Bloodstream" ]
 
 - type: entity
   parent: [ OrganBaseStomach, OrganShelegInternal, OrganShelegMetabolizer ]
   id: OrganShelegStomach
-  components:
-  - type: Metabolizer
-    groups:
-    - id: Food
-      rateModifier: 0.25
-    - id: Drink
-      rateModifier: 1.50
 
 - type: entity
   parent: [ OrganBaseLiver, OrganShelegInternal, OrganShelegMetabolizer ]
   id: OrganShelegLiver
-  components:
-  - type: Metabolizer
-    groups:
-    - id: Alcohol
-      rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink
 
 - type: entity
   parent: [ OrganBaseKidneys, OrganShelegInternal, OrganShelegMetabolizer ]

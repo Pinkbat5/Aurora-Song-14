@@ -14,5 +14,5 @@ public sealed partial class MetabolizerTagWhitelistComponent : Component
     public HashSet<ProtoId<TagPrototype>> Tags;
 
     [DataField(required: true)]
-    public HashSet<ProtoId<MetabolismStagePrototype>> Stages;
+    public List<ProtoId<MetabolismStagePrototype>> Stages;
 }
