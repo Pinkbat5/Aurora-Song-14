@@ -47,6 +47,8 @@ public sealed class MarkingsViewModelTests
     public ProtoId<MarkingPrototype> MothAntennasCharred = "MothAntennasCharred";
     public ProtoId<MarkingPrototype> MothChestCharred = "MothChestCharred";
     public ProtoId<MarkingPrototype> MothChestDeathhead = "MothChestDeathhead";
+    public ProtoId<MarkingPrototype> MothChestClassicJungle = "MothChestClassicJungle";
+    public ProtoId<MarkingPrototype> MothChestClassicGothic = "MothChestClassicGothic";
     public ProtoId<MarkingPrototype> MothChestFan = "MothChestFan";
     public ProtoId<MarkingPrototype> LizardHornsCurled = "LizardHornsCurled";
     public ProtoId<MarkingPrototype> MothAntennasDefault = "MothAntennasDefault";
@@ -92,13 +94,18 @@ public sealed class MarkingsViewModelTests
         Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)!, Has.Count.EqualTo(2));
         Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)![1].MarkingId, Is.EqualTo(MothChestDeathhead));
 
+        // Aurora's Song Start - Add 2 more markings to sustain test
+        Assert.That(Model.TrySelectMarking(Torso, HumanoidVisualLayers.Chest, MothChestClassicJungle), Is.True);
+        Assert.That(Model.TrySelectMarking(Torso, HumanoidVisualLayers.Chest, MothChestClassicGothic), Is.True);
+        // Aurora's Song End
+
         Assert.That(Model.TrySelectMarking(Torso, HumanoidVisualLayers.Chest, MothChestFan), Is.False);
         Assert.That(Model.TrySelectMarking(Head, HumanoidVisualLayers.HeadTop, LizardHornsCurled), Is.False);
 
         Model.EnforceLimits = false;
         Assert.That(Model.TrySelectMarking(Torso, HumanoidVisualLayers.Chest, MothChestFan), Is.True);
-        Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)!, Has.Count.EqualTo(3));
-        Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)![2].MarkingId, Is.EqualTo(MothChestFan));
+        Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)!, Has.Count.EqualTo(5)); // Aurora's Song - 3>5, we have 4 as our marking limit
+        Assert.That(Model.SelectedMarkings(Torso, HumanoidVisualLayers.Chest)![4].MarkingId, Is.EqualTo(MothChestFan)); // Aurora's Song - 2>4, we have 4 as our marking limit
     }
 
     [MarkingTest]
