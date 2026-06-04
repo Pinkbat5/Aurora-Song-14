@@ -820,6 +820,7 @@
     - NFFloorsMiscStatic # Frontier
     - NFFloorTiles # Frontier
     - NFFloorTilesCarpet # Frontier
+    - CorvaxWoodTiles # Aurora's Song
     dynamicPacks:
     - FauxTiles
   - type: EmagLatheRecipes # Frontier
