@@ -5428,3 +5428,12 @@ Entries:
   id: 9519
   time: '2026-06-05T00:31:42.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1117
+- author: salamanderskies
+  changes:
+    - type: Add
+      message: >-
+        Added departmental bomber jackets (plus black and white) from
+        Impstation!
+  id: 9520
+  time: '2026-06-05T00:39:34.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1109
