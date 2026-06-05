@@ -20,7 +20,7 @@
     UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobSlimeTorso
     HeadTop: MobSlimeMarkingFollowSkinNoAlpha # Aurora's Song | Matches alpha with base to make animal ears seemless.
-    HeadSide: MobSlimeMarkingFollowSkin # Aurora's Song
+    HeadSide: MobHumanoidAnyMarking # Aurora's Song -- Changed from MobSlimeMarkingFollowSkin > MobHumanoidAnyMarking for jewelery
     Tail: MobSlimeMarkingFollowSkinNoAlpha # Aurora's Song | Matches alpha with base to make animal tails seemless.
 #    Wings: MobSlimeMarkingFollowSkin //Need to work on this, Den has a different visual layer composition
     Eyes: MobHumanoidEyes

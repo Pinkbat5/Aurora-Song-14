@@ -39,6 +39,9 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+    - FacialHair #imp
+    - HeadSide #imp
+    - HeadTop #imp
 
 - type: entity
   parent:
