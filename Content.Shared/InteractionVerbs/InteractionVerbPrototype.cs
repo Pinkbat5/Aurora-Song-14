@@ -12,7 +12,7 @@ namespace Content.Shared.InteractionVerbs;
 /// <summary>
 ///     Represents an action that can be performed on an entity.
 /// </summary>
-[Prototype("Interaction"), Serializable]
+[Prototype]
 public sealed partial class InteractionVerbPrototype : IPrototype, IInheritingPrototype
 {
     /// <inheritdoc />
