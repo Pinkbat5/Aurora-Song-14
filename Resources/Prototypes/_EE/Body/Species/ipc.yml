@@ -261,8 +261,6 @@
     damage:
       types:
         Blunt: 6 # It's tough.
-  - type: DamageVisuals # Aurora's Song - Shouldn't have human damage states
-    targetLayers: []
 
 - type: entity
   parent: OrganBase
