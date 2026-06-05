@@ -5421,3 +5421,10 @@ Entries:
   id: 9518
   time: '2026-06-05T00:29:31.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1067
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: make spray bottles fillable
+  id: 9519
+  time: '2026-06-05T00:31:42.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1117
