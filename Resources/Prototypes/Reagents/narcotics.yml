@@ -336,8 +336,8 @@
           reagent: Nocturine
           min: 8
         effectProto: StatusEffectForcedSleeping
-        time: 9
-        # delay: 5 # Aurora's Song | Nocturine doesn't need the delay, you already
+        time: 6 # Aurora's Song - 9>6 - Pre Nubody Upmerge
+        delay: 5
 
 - type: reagent
   id: MuteToxin
