@@ -608,6 +608,17 @@
   categories:
   - UplinkAmmo
 
+- type: listing
+  id: UplinkSpeedLoaderRevolver45
+  name: uplink-speedloader-magnum-non-ap-name
+  description: uplink-speedloader-magnum-non-ap-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
+  productEntity: NFSpeedLoaderPistol45
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo
+
 # For the mosin
 - type: listing
   abstract: true # Frontier: moved to _NF uplink catalog
@@ -992,7 +1003,7 @@
   discountDownTo:
     Telecrystal: 2
   cost:
-    Telecrystal: 4
+    Telecrystal: 5 # Aurora's Song | Access Breaker being 5 TC was very deliberate so as to avoid one vend being enough alone
   categories:
   - UplinkDisruption
 
@@ -1422,7 +1433,7 @@
   discountDownTo:
     Telecrystal: 1
   cost:
-    Telecrystal: 2
+    Telecrystal: 5 # Aurora's Song | Freedom Implanters are very powerful on our fork, and should be expensive to reflect that.
   categories:
     - UplinkImplants
 
