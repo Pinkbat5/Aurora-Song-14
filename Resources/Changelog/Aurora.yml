@@ -1349,3 +1349,10 @@ Entries:
   id: 9531
   time: '2026-06-14T02:07:24.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1140
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: it should now be more obvious whether a bounty is for medical or not
+  id: 9532
+  time: '2026-06-14T21:17:20.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1144
